@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h2>Заявка</h2>
+<div th:utext="|Имя: ${name}|" ></div>
+<div th:utext="|Телефон: ${phone}|"></div>
+<div th:if="${brand != null}" th:utext="|Марка: ${brand}|"></div>
+<div th:if="${age != null}" th:utext="|Возраст: ${age}|"></div>
+<div th:if="${problem != null}" th:utext="|Проблема: ${problem}|"></div>
+<div th:if="${service != null}" th:utext="|Название проблемы: ${service}|"></div>
+<div th:if="${discountName != null}" th:utext="|Название скидки: ${discountName}|"></div>
+</body>
+</html>

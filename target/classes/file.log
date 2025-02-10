@@ -1,0 +1,16 @@
+2024-05-15 23:01:20.697 INFO  [http-nio-9090-exec-2] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name null, phone 1231
+2024-05-15 23:01:46.147 INFO  [http-nio-9090-exec-3] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name   , phone 1231
+2024-05-15 23:02:23.370 INFO  [http-nio-9090-exec-1] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name   , phone 1231
+2024-05-15 23:02:33.315 INFO  [http-nio-9090-exec-3] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name null, phone 1231
+2024-05-15 23:07:33.485 INFO  [http-nio-9090-exec-2] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name null, phone 1231
+2024-05-15 23:08:49.545 INFO  [http-nio-9090-exec-3] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name null, phone 1231
+2024-05-15 23:20:36.624 INFO  [http-nio-9090-exec-1] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name vlad, phone +375
+2024-05-15 23:27:18.951 INFO  [http-nio-9090-exec-4] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name Влад, phone +375
+2024-05-15 23:28:55.051 INFO  [http-nio-9090-exec-7] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name Влад, phone +375
+2024-05-15 23:29:13.898 INFO  [http-nio-9090-exec-8] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name Влад, phone +375
+2024-05-15 23:29:21.075 ERROR [http-nio-9090-exec-9] c.m.m.u.RateLimitExceptionHandler - To many request at endpoint /api/v1/mail from IP 0:0:0:0:0:0:0:1!
+2024-05-15 23:29:23.359 ERROR [http-nio-9090-exec-10] c.m.m.u.RateLimitExceptionHandler - To many request at endpoint /api/v1/mail from IP 0:0:0:0:0:0:0:1!
+2024-05-15 23:29:42.085 ERROR [http-nio-9090-exec-1] c.m.m.u.RateLimitExceptionHandler - To many request at endpoint /api/v1/mail from IP 0:0:0:0:0:0:0:1!
+2024-05-15 23:30:02.347 ERROR [http-nio-9090-exec-2] c.m.m.u.RateLimitExceptionHandler - To many request at endpoint /api/v1/mail from IP 0:0:0:0:0:0:0:1!
+2024-05-15 23:30:03.873 ERROR [http-nio-9090-exec-3] c.m.m.u.RateLimitExceptionHandler - To many request at endpoint /api/v1/mail from IP 0:0:0:0:0:0:0:1!
+2024-05-15 23:32:15.092 INFO  [http-nio-9090-exec-6] c.m.m.services.impl.EmailServiceImpl - Email sent successfully: name Влад, phone +375
